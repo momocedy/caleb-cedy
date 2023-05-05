@@ -1,3 +1,116 @@
-body {
-background-color=blue;
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 100vh; 
+}
+.titlebox
+{
+    width: 500px;  
+}
+.titlebox img
+{
+    width: 350px;
+    margin-bottom: -50px;
+}
+.titlebox p
+{
+    color: #000;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 32px;
+}
+.form_box
+{
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 60px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.5);
+}
+.form_box input
+{
+    border-radius: 5px;
+    border: 1px solid #eeebeb;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.form_box input:focus
+{
+    box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+}
+.form_box button{
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #166fe5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.form_box button:hover
+{
+background: #1877f2;
+}
+.form_box a
+{
+    color: #166fe5;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+.form_box a:hover
+{
+text-decoration: underline;
+}
+.form_box .create a
+{
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #36a420;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.form_box .create a:hover
+{
+    background-color: #42b72a;
+}
+.form_box hr
+{
+    border: 1px solid #dadde1;
+}
+.error
+{
+    border-radius: 5px ;
+    border: none;
+    width: 90%;
+    padding: 15px;
+    font-weight: 600;
+    background-color: rgba(186, 25, 25, 0.8);
+    color: #fff;
+    margin-top: 10px;
+
 }
